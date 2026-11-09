@@ -1,0 +1,18 @@
+# Data & Results
+imdb-data/
+imdb-results/
+metastore_db/
+derby.log
+checkpoint/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
