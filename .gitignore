@@ -1,6 +1,7 @@
 # Data & Results
 imdb-data/
 imdb-results/
+spark-temp/
 metastore_db/
 derby.log
 checkpoint/
