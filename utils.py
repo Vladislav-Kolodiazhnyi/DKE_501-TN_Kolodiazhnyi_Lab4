@@ -15,7 +15,7 @@ def get_spark_session(app_name: str = "IMDB_ETL_Task") -> SparkSession:
     return (SparkSession.builder
         .master("local[*]")
         .appName(app_name)
-        .config("spark.driver.memory", "3g")
+        .config("spark.driver.memory", "4g")
         .config("spark.sql.shuffle.partitions", "16")
         .config("spark.local.dir", spark_tmp_dir)
         .getOrCreate())
